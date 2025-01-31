@@ -1,0 +1,56 @@
+footer {
+    background: #002347;
+    padding: 13px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;  
+}
+.footer-bg-color {
+    background-color: #002347;
+    padding: 100px 0;
+}
+#all-footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content h2{
+    font: 600 18px arial;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer-content a,.footer-subscribe p{
+    display: block;
+    font: 500 16px arial;
+    color: #7b838a;
+    margin-bottom: 15px;
+    transition: .4s;
+    padding: 0 30px;
+}
+.footer-content a:hover { color: #fff;}
+.footer-subscribe input {
+    background-color: #334f6c;
+    border: 0;
+    width: 200px;
+    padding: 15px;
+    color: #Fff;
+    outline: none;
+}
+.footer-subscribe button {
+    background-color: #fdc632;
+    color: #002347;
+    border: 0;
+    font: 600 12px arial;
+    padding: 13px 20px;
+    text-transform: uppercase;
+}
+::placeholder { font: 500 14px arial; text-transform: capitalize;}
+#copy-right-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.copyRight-content p{
+    color: #fff;
+    font: 500 16px arial;
+}
+.footer-icons { color: #Fff;}
